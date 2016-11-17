@@ -1,0 +1,51 @@
+点击项目:
+  type:xpath
+  value:"//a[@href='/zentao/project/']"
+添加项目:
+  type:xpath
+  value:"//a[@href='/zentao/project-create.html']"
+项目名称:
+  type:id
+  value:name
+项目代号:
+  type:id
+  value:code
+起始时间:
+  type:id
+  value:begin
+截止时间:
+  type:id
+  value:end
+团队名称:
+  type:id
+  value:team
+项目类型:
+  type:id
+  value:type
+关联产品:
+  type:id
+  value:products0_chosen
+选择产品:
+  type:xpath
+  value:"//div[@id='products0_chosen']/div/ul/li[1]"
+跳进项目描述:
+  type:xpath
+  value:"//iframe[@class='ke-edit-iframe']"
+项目描述:
+  type:xpath
+  value:"//body[@class='article-content']"
+添加项目表单名:
+  type:id
+  value:dataform
+默认访问权限:
+  type:xpath
+  value:"//input[@id='aclopen']"
+私有访问权限:
+  type:xpath
+  value:"//input[@id='aclprivate']"
+默认访问权限:
+  type:xpath
+  value:"//input[@id='aclcustom']"
+保存项目:
+  type:xpath
+  value:"//td[@class='text-center']/button"

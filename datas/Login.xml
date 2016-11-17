@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试集">
+    <test name="test">
+        <!--<parameter name="login_user" value="admin"/>-->
+        <!--<parameter name="login_password" value="123456"/>-->
+
+        <parameter name="department" value="tatata"/>
+
+        <parameter name="projectname" value="AutoProject12"/>
+        <parameter name="projectcode" value="APJ12"/>
+        <parameter name="teamname" value="隋式集团"/>
+        <parameter name="projecttype" value="ops"/>
+        <parameter name="description" value="这是一个自动化项目"/>
+
+        <classes>
+          <class name="fengZhuang.test.XamppTest">
+              <methods>
+                  <include name="LoginTest"></include>
+                  <include name="Test1Test"></include>
+                  <include name="ProjectTest"></include>
+              </methods>
+          </class>
+        </classes>
+    </test>
+</suite>

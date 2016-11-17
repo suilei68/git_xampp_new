@@ -1,0 +1,65 @@
+点击项目:
+  type: xpath
+  value: "//a[@href='/zentao/qa/']"
+点击bug:
+  type: linkText
+  value: Bug
+项目选择:
+  type: id
+  value: currentItem
+选择项目:
+  type: xpath
+  value: "//div[@id='defaultMenu']//a[.=' Auto']"
+点击提Bug:
+  type: linkText
+  value: 提Bug
+所属产品:
+  type: id
+  value: product_chosen
+选择产品:
+  type: xpath
+  value: "//div[@class='chosen-drop']//li[.='Auto']"
+所属模块:
+  type: xpath
+  value: "//div[@id='module_chosen']"
+选择模块:
+  type: xpath
+  value: "//li[contains(text(),'/界面')]"
+所属项目:
+  type: xpath
+  value: "//span[@id='projectIdBox']"
+所属项目选择:
+  type: xpath
+  value: "//li[contains(text(),'AutoProject666')]"
+影响版本:
+  type: xpath
+  value: "//span[@id='buildBox']"
+选择版本:
+  type: xpath
+  value: "//li[contains(text(),'Trunk')]"
+刷新按钮:
+  type: xpath
+  value: "//button[@class='btn btn-default']"
+当前指派:
+  type: xpath
+  value: "//div[@id='assignedTo_chosen']"
+选择指派人:
+  type: xpath
+  value: "//li[contains(text(),'C:车梁钰')]"
+bug类型:
+  type: xpath
+  value: "//select[@name='type']"
+操作系统:
+  type: xpath
+  value: "//select[@name='os']"
+浏览器:
+  type: xpath
+  value: "//select[@name='browser']"
+输入bug标题:
+  type: xpath
+  value: "//input[@id='title']"
+等级选择:
+  type: xpath
+  value: "//div[@class='input-group-btn dropdown-pris']"
+
+

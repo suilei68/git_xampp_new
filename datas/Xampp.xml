@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试集">
+    <test name="test">
+        <parameter name="login_user" value="admin"/>
+        <parameter name="login_password" value="123456"/>
+
+        <parameter name="department" value="tatata"/>
+
+        <classes>
+            <class name="fengZhuang.test.XamppTest"/>
+        </classes>
+    </test>
+</suite>

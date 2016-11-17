@@ -1,0 +1,9 @@
+登录用户:
+  type:id
+  value:account
+登录密码:
+  type:name
+  value:password
+登录按钮:
+  type:xpath
+  value:"//button[@id='submit']"

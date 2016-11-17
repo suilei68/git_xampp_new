@@ -1,0 +1,63 @@
+定位组织:
+  type: xpath
+  value: "//a[@href='/zentao/company/']"
+定位部门:
+  type: xpath
+  value: "//a[@href='/zentao/dept-browse.html']"
+添加部门:
+  type: xpath
+  value: "//input[@id='depts[]']"
+删除部门:
+  type: xpath
+  value: "//ul[@id='deptTree']/li/span/a[.='tatata']/parent::span/following-sibling::div/a[.='删除']"
+部门保存:
+  type: xpath
+  value: "//form[@class='form-condensed']"
+点击添加用户:
+  type: xpath
+  value: "//a[@href='/zentao/user-create-0.html']"
+所属部门:
+  type: xpath
+  value: "//span[@title='/']"
+部门选择:
+  type: xpath
+  value: "//li[contains(text(),'/AutoTest')]"
+用户名:
+  type: xpath
+  value: "//input[@id='account']"
+真实姓名:
+  type: xpath
+  value: "//input[@id='realname']"
+密码:
+  type: xpath
+  value: "//input[@id='password1']"
+重复密码:
+  type: xpath
+  value: "//input[@id='password2']"
+职位:
+  type: xpath
+  value: "//select[@id='role']"
+分组:
+  type: xpath
+  value: "//div[@id='group_chosen']"
+选择分组:
+  type: xpath
+  value: "//div[@id='group_chosen']/div/ul/li[3]"
+邮箱:
+  type: xpath
+  value: "//input[@id='email']"
+源代码账号:
+  type: xpath
+  value: "//input[@id='commiter']"
+入职时间:
+  type: xpath
+  value: "//input[@id='join']"
+性别选择:
+  type: xpath
+  value: "//input[@id='genderf']"
+请输入你的密码:
+  type: xpath
+  value: "//input[@id='verifyPassword']"
+保存:
+  type: xpath
+  value: "//form[@id='dataform']"
